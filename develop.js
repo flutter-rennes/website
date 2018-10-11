@@ -5,7 +5,7 @@ const build = require('./build.js');
 var host = "0.0.0.0";
 var port = 8090;
 
-var server = httpServer.createServer({ root: "public"});
+var server = httpServer.createServer({ root: "docs"});
 build();
 server.listen(port, host, function () {
 

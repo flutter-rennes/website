@@ -42,7 +42,7 @@ function render(sources,output) {
 }
 
 const sources = path.join(__dirname, 'src');
-const output = path.join(__dirname, 'public');
+const output = path.join(__dirname, 'docs');
 
 module.exports = function() {
     clean(output);
