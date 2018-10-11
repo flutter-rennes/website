@@ -14,19 +14,19 @@
                     "twitter": "aloisdeniel",
                     "github": "aloisdeniel",
                     "job": "Orange Business Services",
-                    "avataaar": "Circle&topType=Turban&accessoriesType=Prescription01&hatColor=Blue03&facialHairType=BeardLight&facialHairColor=Platinum&clotheType=GraphicShirt&clotheColor=Blue02&graphicType=Resist&eyeType=Surprised&eyebrowType=SadConcernedNatural&mouthType=Eating&skinColor=Light"
+                    "avataaar": "Circle&topType=ShortHairShortFlat&accessoriesType=Round&hairColor=Blonde&facialHairType=Blank&clotheType=CollarSweater&clotheColor=Heather&eyeType=Default&eyebrowType=FlatNatural&mouthType=Serious&skinColor=Light"
                 }
             },
             {
                 "id": 2,
-                "title": "Introduction au développement mobile",
-                "summary": "Le développement mobile cross-platforms n’a jamais vraiment convaincu : amenant souvent de lourdes contraintes qui viennent entacher la productivité ou l’expérience utilisateur.",
+                "title": "Live-Coding : une application mobile multi-plateformes en trente minutes",
+                "summary": "Nous allons relever ensemble un défi qui peut paraître fou pour tout développeur d'application mobile en réalisant une application mobile iOS et Android : échanges réseaux, visuel riche. Vous allez comprendre l'engouement autours de cette technologie.",
                 "speaker": {
-                    "name": "Aloïs Deniel",
-                    "twitter": "aloisdeniel",
-                    "github": "aloisdeniel",
+                    "name": "Romain Rastel",
+                    "twitter": "lets4r",
+                    "github": "lets4r",
                     "job": "Orange Business Services",
-                    "avataaar": "Circle&topType=ShortHairShortFlat&accessoriesType=Sunglasses&hairColor=Black&facialHairType=Blank&facialHairColor=Blonde&clotheType=ShirtVNeck&clotheColor=Blue03&eyeType=Happy&eyebrowType=SadConcerned&mouthType=Grimace&skinColor=Tanned"
+                    "avataaar": "Circle&topType=ShortHairShortRound&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=ShirtCrewNeck&clotheColor=Gray02&eyeType=Happy&eyebrowType=RaisedExcited&mouthType=Smile&skinColor=Light"
                 }
             }
             
@@ -35,24 +35,46 @@
     "upcoming": [
         {
             "id": 3,
-            "title": "Introduction au développement mobile multi-plateformes avec Flutter",
+            "title": "Accéder aux fonctionnalités native et développez votre propre plugin",
             "speaker": {
-                "name": "Aloïs Deniel",
-                "twitter": "@aloisdeniel",
-                "github": "aloisdeniel",
+                "name": "Clovis Nicolas",
+                "twitter": "@clovisnicolas",
+                "github": "clovisnicolas",
                 "job": "Orange Business Services",
-                "avataaar": "Circle&topType=Turban&accessoriesType=Prescription01&hatColor=Blue03&facialHairType=BeardLight&facialHairColor=Platinum&clotheType=GraphicShirt&clotheColor=Blue02&graphicType=Resist&eyeType=Surprised&eyebrowType=SadConcernedNatural&mouthType=Eating&skinColor=Light"
+                "avataaar": "Circle&topType=ShortHairShortCurly&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=ShirtVNeck&clotheColor=Blue02&eyeType=EyeRoll&eyebrowType=Default&mouthType=Twinkle&skinColor=Light"
             }
         },
         {
             "id": 4,
-            "title": "Introduction au développement mobile multi-plateformes avec Flutter",
+            "title": "BloC : une architecture réactive qui facilite le partage de code",
             "speaker": {
                 "name": "Aloïs Deniel",
                 "twitter": "@aloisdeniel",
                 "github": "aloisdeniel",
                 "job": "Orange Business Services",
-                "avataaar": "Circle&topType=ShortHairShortFlat&accessoriesType=Sunglasses&hairColor=Black&facialHairType=Blank&facialHairColor=Blonde&clotheType=ShirtVNeck&clotheColor=Blue03&eyeType=Happy&eyebrowType=SadConcerned&mouthType=Grimace&skinColor=Tanned"
+                "avataaar": "Circle&topType=ShortHairShortFlat&accessoriesType=Round&hairColor=Blonde&facialHairType=Blank&clotheType=CollarSweater&clotheColor=Heather&eyeType=Default&eyebrowType=FlatNatural&mouthType=Serious&skinColor=Light"
+            }
+        },
+        {
+            "id": 5,
+            "title": "StaggeredListView : créer des listes originales",
+            "speaker": {
+                "name": "Romain Rastel",
+                "twitter": "lets4r",
+                "github": "lets4r",
+                "job": "Orange Business Services",
+                "avataaar": "Circle&topType=ShortHairShortRound&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=ShirtCrewNeck&clotheColor=Gray02&eyeType=Happy&eyebrowType=RaisedExcited&mouthType=Smile&skinColor=Light"
+            }
+        },
+        {
+            "id": 5,
+            "title": "Live-Coding: réalisons ensembles un widget personnalisé basé sur du dessin personnalisé",
+            "speaker": {
+                "name": "Jordan Alcaraz",
+                "twitter": "jordanalcrz",
+                "github": "ZaraclaJ",
+                "job": "Orange Business Services",
+                "avataaar": "Circle&topType=ShortHairShortFlat&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=ShirtVNeck&clotheColor=PastelOrange&eyeType=Dizzy&eyebrowType=Default&mouthType=Tongue&skinColor=Brown"
             }
         }
     ]
