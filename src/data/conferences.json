@@ -8,7 +8,7 @@
             {
                 "id": 1,
                 "title": "Introduction au développement mobile multi-plateformes avec Flutter",
-                "summary": "Le développement mobile cross-platforms n’a jamais vraiment convaincu : amenant souvent de lourdes contraintes qui viennent entacher la productivité ou l’expérience utilisateur. Mais Google à repensé cette approche et propose une solution qui fait beaucoup parler. Nous verrons ensemble pourquoi il faut prêter une attention particulière à cette technologie.",
+                "summary": "Le développement mobile cross-platforms n’a jamais vraiment convaincu : amenant souvent de lourdes contraintes qui entachent la productivité ou l’expérience utilisateur. Mais Google à repensé cette approche et propose une solution qui fait beaucoup parler. Nous verrons ensemble pourquoi il faut prêter une attention particulière à cette technologie.",
                 "speaker": {
                     "name": "Aloïs Deniel",
                     "twitter": "aloisdeniel",
@@ -20,7 +20,7 @@
             {
                 "id": 2,
                 "title": "Live-Coding : une application mobile multi-plateformes en trente minutes",
-                "summary": "Nous allons relever ensemble un défi qui peut paraître fou pour tout développeur d'application mobile en réalisant une application mobile iOS et Android : échanges réseaux, visuel riche. Vous allez comprendre l'engouement autours de cette technologie.",
+                "summary": "Nous allons relever ensemble un défi qui peut paraître fou pour tout développeur d'application mobile : réaliser une application mobile iOS et Android riche (échanges réseaux, visuel original) en très peu de temps. Vous allez comprendre l'engouement autours de ces outils.",
                 "speaker": {
                     "name": "Romain Rastel",
                     "twitter": "lets4r",
@@ -68,7 +68,7 @@
         },
         {
             "id": 6,
-            "title": "Live-Coding: réalisons ensembles un widget personnalisé basé sur du dessin personnalisé",
+            "title": "Live-Coding: réalisons ensembles un widget basé sur du dessin complétement personnalisé",
             "speaker": {
                 "name": "Jordan Alcaraz",
                 "twitter": "jordanalcrz",
