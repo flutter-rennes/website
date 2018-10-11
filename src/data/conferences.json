@@ -35,6 +35,15 @@
     "upcoming": [
         {
             "id": 3,
+            "title": "Qu'est-ce qu'un widget?",
+            "speaker": {
+                "name": "A confirmer",
+                "job": "",
+                "avataaar": "Circle&topType=ShortHairFrizzle&accessoriesType=Kurt&hairColor=SilverGray&facialHairType=Blank&clotheType=CollarSweater&clotheColor=PastelBlue&eyeType=Side&eyebrowType=UpDownNatural&mouthType=Tongue&skinColor=Yellow"
+            }
+        },
+        {
+            "id": 4,
             "title": "Accéder aux fonctionnalités natives et développez votre propre plugin",
             "speaker": {
                 "name": "Clovis Nicolas",
@@ -45,7 +54,7 @@
             }
         },
         {
-            "id": 4,
+            "id": 5,
             "title": "BloC : une architecture réactive qui facilite le partage de code",
             "speaker": {
                 "name": "Aloïs Deniel",
@@ -56,8 +65,8 @@
             }
         },
         {
-            "id": 5,
-            "title": "StaggeredListView : créer des listes originales",
+            "id": 6,
+            "title": "Slivers : créer des listes originales",
             "speaker": {
                 "name": "Romain Rastel",
                 "twitter": "lets4r",
@@ -67,7 +76,7 @@
             }
         },
         {
-            "id": 6,
+            "id": 7,
             "title": "Live-Coding: réalisons ensembles un widget basé sur du dessin complétement personnalisé",
             "speaker": {
                 "name": "Jordan Alcaraz",
@@ -75,6 +84,39 @@
                 "github": "ZaraclaJ",
                 "job": "Orange Business Services",
                 "avataaar": "Circle&topType=ShortHairShortFlat&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=ShirtVNeck&clotheColor=PastelOrange&eyeType=Dizzy&eyebrowType=Default&mouthType=Tongue&skinColor=Brown"
+            }
+        },
+        {
+            "id": 8,
+            "title": "Industrialisez vos développements Flutter",
+            "speaker": {
+                "name": "Aloïs Deniel",
+                "twitter": "@aloisdeniel",
+                "github": "aloisdeniel",
+                "job": "Orange Business Services",
+                "avataaar": "Circle&topType=ShortHairShortFlat&accessoriesType=Round&hairColor=Blonde&facialHairType=Blank&clotheType=CollarSweater&clotheColor=Heather&eyeType=Default&eyebrowType=FlatNatural&mouthType=Serious&skinColor=Light"
+            }
+        },
+        {
+            "id": 9,
+            "title": "Intégrer des vues natives dans Flutter et inversement",
+            "speaker": {
+                "name": "Thomas Abot",
+                "twitter": "@triskeon",
+                "github": "triskeon",
+                "job": "Orange Business Services",
+                "avataaar": "Circle&topType=ShortHairShortFlat&accessoriesType=Prescription02&hairColor=BrownDark&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Default&eyebrowType=Default&mouthType=Eating&skinColor=Light"
+            }
+        },
+        {
+            "id": 10,
+            "title": "Dart avancé: exploitez les fonctionnalités avancées du language",
+            "speaker": {
+                "name": "Romain Rastel",
+                "twitter": "lets4r",
+                "github": "letsar",
+                "job": "Orange Business Services",
+                "avataaar": "Circle&topType=ShortHairShortRound&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=ShirtCrewNeck&clotheColor=Gray02&eyeType=Happy&eyebrowType=RaisedExcited&mouthType=Smile&skinColor=Light"
             }
         }
     ]

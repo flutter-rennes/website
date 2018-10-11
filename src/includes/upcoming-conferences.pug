@@ -11,10 +11,12 @@ mixin conferenceCard(conference)
                 h1= conference.speaker.name
                 h2= conference.speaker.job
                 .social
-                    a.icon(href="http://twitter.com/"+conference.speaker.twitter)
-                        img(src="images/icon-twitter.svg")
-                    a.icon(href="http://github.com/"+conference.speaker.github)
-                        img(src="images/icon-github.svg")
+                    if conference.speaker.twitter
+                        a.icon(href="http://twitter.com/"+conference.speaker.twitter)
+                            img(src="images/icon-twitter.svg")
+                    if conference.speaker.twitter
+                        a.icon(href="http://github.com/"+conference.speaker.github)
+                            img(src="images/icon-github.svg")
 
 .upcoming
     h2= "Futures conférences"
