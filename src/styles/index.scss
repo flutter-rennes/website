@@ -1,0 +1,29 @@
+@import 'colors';
+@import 'sizes';
+@import 'body';
+@import 'bar';
+@import 'next-session';
+@import 'sponsors';
+@import 'upcoming-conferences';
+@import 'about';
+@import 'contact';
+
+html,
+body,
+ul,
+div,
+h1,
+h2,
+h3,
+h4,
+img,
+ol {
+  margin:  0;
+  padding: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    background: $colorBackgroundSemiLight;
+}
+

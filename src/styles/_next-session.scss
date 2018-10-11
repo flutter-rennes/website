@@ -1,0 +1,143 @@
+.next-session {
+    .banner {
+        position: relative;
+
+        .banner-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            clear: both;
+            height: 320px;
+            opacity: 0.2;
+            border-radius: 24px;
+            background: url(images/banner.jpg);
+            z-index: 0;
+        }
+
+        .row1 {
+            position: relative;
+            z-index: 1;
+            display: flex;
+            flex-direction: row;
+            margin-left: $marginBig;
+            padding-top: $marginBig;
+            margin-right: $marginBig;
+
+            .titles {
+                flex-grow: 1;
+                h1 {
+                    font-size: $fontSizeBig;
+                    font-weight: $fontWeightLight;
+                    color: black;
+                }
+                h2 {
+                    font-size: $fontSizeSemiBig;
+                    font-weight: $fontWeightLight;
+                    color: black;
+                }
+            }
+            .meetup {
+                transform: translate(0,-12px);
+                img {
+                    height: 22px;
+                    float: right;
+                    margin-bottom: 4px;
+                }
+                a {
+                    clear: right;
+                    border-radius: 4px;
+                    display: block;
+                    color: white;
+                    width: 142px;
+                    background-color: $meetupAccent;
+                    font-size: $fontSizeSemiBig;
+                    font-weight: $fontWeightLight;
+                    text-decoration: none;
+                    text-align: center;
+                    padding: 8px;
+                    &:hover {
+                        background-color: darken($meetupAccent, 5%);
+                    }
+                }
+            }
+        }
+
+
+        .row2 {
+            position: relative;
+            z-index: 1;
+            display: flex;
+            flex-direction: row;
+            margin-left: $marginBig;
+            margin-right: $marginBig;
+
+            .card {
+                align-self: flex-start;
+                flex-grow: 1;
+                flex-basis: 25em;
+                background: $colorBackgroundLight;
+                border-radius: 6px;
+                box-shadow: 0px 0px 20px rgba(black, 0.12);
+                padding: $marginNormal;
+                h1 {
+                    color: $colorTextLight;
+                    font-size: $fontSizeExtraBig;
+                    font-weight: $fontWeightLight;
+                }
+                h2 {
+                    color: $colorTextDark;
+                    font-size: $fontSizeBig;
+                    font-weight: $fontWeightRegular;
+                }
+                p {
+                    color: $colorTextSemiDark;
+                    font-size: $fontSizeRegular;
+                    font-weight: $fontWeightLight;
+                }
+
+                .speaker {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    .avatar {
+                        width: 42px;
+                        flex-shrink: 0;
+                    }
+                    .info {
+                        flex-grow: 1;
+                        align-self: center;
+
+                        h1 {
+                            color: $colorTextDark;
+                            font-size: $fontSizeRegular;
+                            font-weight: $fontWeightMedium;
+                            margin: 0px;
+                        }
+                        h2 {
+                            color: $colorTextDark;
+                            font-size: $fontSizeSemiSmall;
+                            font-weight: $fontWeightLight;
+                            margin-bottom: 4px;
+                        }
+
+                        .social {
+                            display: flex;
+                            flex-direction: row;
+                            .icon {
+                                display: block;
+                                img {
+                                    display: block;
+                                    width: 15px;
+                                    height: 15px;
+                                    margin-right: 4px;
+                                }
+                            }   
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}

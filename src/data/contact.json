@@ -1,0 +1,15 @@
+{
+    "contactus": "Contactez-nous!",
+    "github": {
+        "label": "flutter-rennes",
+        "link": "http://github.com/flutter-rennes"
+    },
+    "twitter": {
+        "label": "@flutterrennes",
+        "link": "http://twitter.com/flutterrennes"
+    },
+    "mail": {
+        "label": "flutterrennes@gmail.com",
+        "link": "mailto:flutterrennes@gmail.com"
+    }
+}

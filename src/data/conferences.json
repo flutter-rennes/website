@@ -1,0 +1,59 @@
+{
+    "interested": "Vous souhaitez proposer une conférence ?",
+    "nextSession": {
+        "date": "23 Octobre 2018 à 19h",
+        "location": "Lieu à définir, 35000 Rennes",
+        "link": "https://www.meetup.com/fr-FR/Flutter-Rennes/",
+        "conferences": [ 
+            {
+                "id": 1,
+                "title": "Introduction au développement mobile multi-plateformes avec Flutter",
+                "summary": "Le développement mobile cross-platforms n’a jamais vraiment convaincu : amenant souvent de lourdes contraintes qui viennent entacher la productivité ou l’expérience utilisateur. Mais Google à repensé cette approche et propose une solution qui fait beaucoup parler. Nous verrons ensemble pourquoi il faut prêter une attention particulière à cette technologie.",
+                "speaker": {
+                    "name": "Aloïs Deniel",
+                    "twitter": "aloisdeniel",
+                    "github": "aloisdeniel",
+                    "job": "Orange Business Services",
+                    "avataaar": "Circle&topType=Turban&accessoriesType=Prescription01&hatColor=Blue03&facialHairType=BeardLight&facialHairColor=Platinum&clotheType=GraphicShirt&clotheColor=Blue02&graphicType=Resist&eyeType=Surprised&eyebrowType=SadConcernedNatural&mouthType=Eating&skinColor=Light"
+                }
+            },
+            {
+                "id": 2,
+                "title": "Introduction au développement mobile",
+                "summary": "Le développement mobile cross-platforms n’a jamais vraiment convaincu : amenant souvent de lourdes contraintes qui viennent entacher la productivité ou l’expérience utilisateur.",
+                "speaker": {
+                    "name": "Aloïs Deniel",
+                    "twitter": "aloisdeniel",
+                    "github": "aloisdeniel",
+                    "job": "Orange Business Services",
+                    "avataaar": "Circle&topType=ShortHairShortFlat&accessoriesType=Sunglasses&hairColor=Black&facialHairType=Blank&facialHairColor=Blonde&clotheType=ShirtVNeck&clotheColor=Blue03&eyeType=Happy&eyebrowType=SadConcerned&mouthType=Grimace&skinColor=Tanned"
+                }
+            }
+            
+         ]
+    },
+    "upcoming": [
+        {
+            "id": 3,
+            "title": "Introduction au développement mobile multi-plateformes avec Flutter",
+            "speaker": {
+                "name": "Aloïs Deniel",
+                "twitter": "@aloisdeniel",
+                "github": "aloisdeniel",
+                "job": "Orange Business Services",
+                "avataaar": "Circle&topType=Turban&accessoriesType=Prescription01&hatColor=Blue03&facialHairType=BeardLight&facialHairColor=Platinum&clotheType=GraphicShirt&clotheColor=Blue02&graphicType=Resist&eyeType=Surprised&eyebrowType=SadConcernedNatural&mouthType=Eating&skinColor=Light"
+            }
+        },
+        {
+            "id": 4,
+            "title": "Introduction au développement mobile multi-plateformes avec Flutter",
+            "speaker": {
+                "name": "Aloïs Deniel",
+                "twitter": "@aloisdeniel",
+                "github": "aloisdeniel",
+                "job": "Orange Business Services",
+                "avataaar": "Circle&topType=ShortHairShortFlat&accessoriesType=Sunglasses&hairColor=Black&facialHairType=Blank&facialHairColor=Blonde&clotheType=ShirtVNeck&clotheColor=Blue03&eyeType=Happy&eyebrowType=SadConcerned&mouthType=Grimace&skinColor=Tanned"
+            }
+        }
+    ]
+}

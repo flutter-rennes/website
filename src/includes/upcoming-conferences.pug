@@ -1,0 +1,28 @@
+mixin conferenceCard(conference)
+    .card
+        h1= "#" + conference.id
+        .h-space-small
+        h2= conference.title
+        .h-space-small
+        .speaker
+            img.avatar(src="https://avataaars.io/?avatarStyle=" + conference.speaker.avataaar)
+            .h-space-small
+            .info
+                h1= conference.speaker.name
+                h2= conference.speaker.job
+                .social
+                    a.icon(href="http://twitter.com/"+conference.speaker.twitter)
+                        img(src="images/icon-twitter.svg")
+                    a.icon(href="http://github.com/"+conference.speaker.github)
+                        img(src="images/icon-github.svg")
+
+.upcoming
+    h2= "Futures conférences"
+    each conference in conferences.upcoming
+        .v-space-small
+        +conferenceCard(conference)
+    .v-space-small
+    .v-space-small
+    .searching
+        h1= conferences.interested
+        a.contactus(href="#contact")= contact.contactus

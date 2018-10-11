@@ -1,0 +1,63 @@
+@import 'margins';
+@import 'fonts';
+@import 'sizes';
+
+.bar {
+    background: $colorBackgroundLight;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0px 0px 15px rgba(black, 0.2);
+    z-index: 999;
+    .content {
+        padding: 0px;
+        height: $sizeTopBar;
+        margin: 0px auto;
+        max-width: $sizeMaxWidth;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .logo {
+            margin-left: $marginBig;
+            width: 42px;
+            height: 42px;
+        }
+
+        .titles {
+            margin-left: $marginSmall;
+            h1 {
+                font-size: $fontSizeRegular;
+                font-weight: $fontWeightThin;
+            }
+
+            h2 {
+                font-size: $fontSizeSemiSmall;
+                font-weight: $fontWeightMedium;
+                color: $colorAccent;
+            }
+        }
+
+        .menu {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+            margin-right: $marginBig;
+            a {
+                font-size: $fontSizeRegular;
+                font-weight: $fontWeightThin;
+                color: $colorTextDark;
+                text-decoration: none;
+                margin-left: $marginNormal;
+                &.selected {
+                    font-weight: $fontWeightMedium;
+                    color: $colorAccent;
+                }
+                &:hover {
+                    color: $colorAccent;
+                }
+            }
+            
+        }
+    }
+}

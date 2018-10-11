@@ -1,0 +1,54 @@
+@import 'margins';
+@import 'fonts';
+@import 'sizes';
+
+.v-space {
+    height: $marginExtraBig;
+    flex-shrink: 0;
+}
+
+.h-space {
+    width: $marginBig;
+    flex-shrink: 0;
+}
+
+.h-space-small {
+    width: $marginSmall;
+    flex-shrink: 0;
+}
+
+.v-space-small {
+    height: $marginSmall;
+    flex-shrink: 0;
+}
+
+a.contactus {
+    margin: $marginNormal auto;
+    border-radius: 4px;
+    display: block;
+    color: white;
+    width: 172px;
+    background-color: $colorAccent;
+    font-size: $fontSizeSemiBig;
+    font-weight: $fontWeightLight;
+    text-decoration: none;
+    text-align: center;
+    padding: 8px;
+    &:hover {
+        background-color: darken($colorAccent, 5%);
+    }
+}
+
+.body {
+    margin: 0px auto;
+    padding: ($sizeTopBar + $marginBig) $marginBig $marginBig $marginBig;
+    max-width: $sizeMaxWidth - 2*$marginBig;
+    background: $colorBackgroundLight;
+    min-height: 1000px;
+
+    h2 {
+        color: $colorAccent;
+        font-size: $fontSizeSemiBig;
+        margin-bottom: $marginNormal;
+    }
+}

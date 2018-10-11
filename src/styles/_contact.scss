@@ -1,0 +1,14 @@
+.contact {
+    .social {
+        display: flex;
+        flex-direction: row;
+        .icon {
+            display: block;
+            img {
+                display: block;
+                width: 32px;
+                height: 32px;
+            }
+        }   
+    }
+}

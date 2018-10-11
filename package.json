@@ -1,0 +1,30 @@
+{
+  "name": "flutter-rennes-website",
+  "version": "1.0.0",
+  "description": "Official website for Flutter Rennes",
+  "main": "build.js",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flutter-rennes/website.git"
+  },
+  "keywords": [
+    "flutter",
+    "website"
+  ],
+  "author": "Flutter Rennes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flutter-rennes/website/issues"
+  },
+  "homepage": "https://github.com/flutter-rennes/website#readme",
+  "dependencies": {
+    "del": "^3.0.0",
+    "jstransformer-scss": "^1.0.0",
+    "pug": "^2.0.3",
+    "http-server": "^0.11.1",
+    "node-watch": "^0.5.8"
+  }
+}

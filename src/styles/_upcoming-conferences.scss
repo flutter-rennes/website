@@ -1,0 +1,88 @@
+.upcoming{
+
+    .searching {
+        background-color: $colorBackgroundSemiLight;
+        border-radius: 6px;
+        padding: $marginBig;
+        text-align: center;
+
+        h1 {
+            color: $colorTextSemiDark;
+            font-size: $fontSizeExtraBig;
+            font-weight: $fontWeightThin;
+        }
+    }
+
+    .card {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 32px;
+        background: $colorBackgroundLight;
+        border-radius: 6px;
+        box-shadow: 0px 0px 12px rgba(black, 0.10);
+        padding: $marginNormal;
+        h1 {
+            flex-shrink: 0;
+            flex-basis: 64px;
+            align-self: center;
+            color: $colorTextLight;
+            font-size: $fontSizeExtraBig;
+            font-weight: $fontWeightLight;
+            margin-bottom: 0px;
+        }
+        
+        h2 {
+            flex-grow: 1;
+            align-self: center;
+            color: $colorTextDark;
+            font-size: $fontSizeRegular;
+            font-weight: $fontWeightMedium;
+            margin-bottom: 0px;
+        }
+
+        .speaker {
+            flex-shrink: 0;
+            flex-basis: 180px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            align-self: center;
+
+            .avatar {
+                width: 42px;
+                flex-shrink: 0;
+            }
+            .info {
+                flex-grow: 1;
+                align-self: center;
+                
+                h1 {
+                    color: $colorTextDark;
+                    font-size: $fontSizeSemiSmall;
+                    font-weight: $fontWeightMedium;
+                }
+                h2 {
+                    color: $colorTextDark;
+                    font-size: $fontSizeSmall;
+                    font-weight: $fontWeightLight;
+                    margin-bottom: 4px;
+                }
+
+                .social {
+                    display: flex;
+                    flex-direction: row;
+                    .icon {
+                        display: block;
+                        img {
+                            display: block;
+                            width: 15px;
+                            height: 15px;
+                            margin-right: 4px;
+                        }
+                    }   
+                }
+            }
+        }
+    }
+}

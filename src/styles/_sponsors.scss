@@ -1,0 +1,18 @@
+@import 'margins';
+@import 'fonts';
+@import 'sizes';
+
+.sponsors {
+    .searching {
+        background-color: $colorBackgroundSemiLight;
+        border-radius: 6px;
+        padding: $marginBig;
+        text-align: center;
+
+        h1 {
+            color: $colorTextSemiDark;
+            font-size: $fontSizeExtraBig;
+            font-weight: $fontWeightThin;
+        }
+    }
+}
