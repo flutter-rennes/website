@@ -39,6 +39,10 @@ function render(sources,output) {
     var data = readData(path.join(sources,"data"));
     var html = pug.renderFile(template, data);
     fs.writeFileSync(path.join(output, "index.html"), html);
+
+    template = path.join(sources, 'print.pug');
+    html = pug.renderFile(template, data);
+    fs.writeFileSync(path.join(output, "print.html"), html);
 }
 
 const sources = path.join(__dirname, 'src');

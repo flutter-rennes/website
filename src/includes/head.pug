@@ -1,5 +1,8 @@
-head
-    meta(charset="utf-8")
-    link(href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700", rel="stylesheet")
-    style
-        include:scss ../styles/index.scss
+mixin head(print)
+    head
+        meta(charset="utf-8")
+        link(href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700", rel="stylesheet")
+        style
+            include:scss ../styles/index.scss
+            if print
+                include:scss ../styles/print.scss

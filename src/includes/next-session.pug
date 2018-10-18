@@ -1,4 +1,4 @@
-mixin conferenceCard(conference)
+mixin nextConferenceCard(conference)
     .card
         h1= "#" + conference.id
         h2= conference.title
@@ -15,18 +15,18 @@ mixin conferenceCard(conference)
                     a.icon(href="http://github.com/"+conference.speaker.github)
                         img(src="images/icon-github.svg")
 
-#conferences.next-session
-    h2= "Prochaine session"
-    .banner
-        .banner-background
-        .row1
-            .titles
-                h1= conferences.nextSession.date
-                h2= conferences.nextSession.location
-            .meetup
-                img(src="images/logo-meetup.svg")
-                a(href=conferences.nextSession.link) Inscrivez vous
-        .row2
-            +conferenceCard(conferences.nextSession.conferences[0])
-            .h-space
-            +conferenceCard(conferences.nextSession.conferences[1])
+mixin next-session(session)
+    #conferences.next-session
+        .banner
+            .banner-background
+            .row1
+                .titles
+                    h1= session.date
+                    h2= session.location
+                .meetup
+                    img(src="images/logo-meetup.svg")
+                    a(href=session.link) Inscrivez vous
+            .row2
+                +nextConferenceCard(session.conferences[0])
+                .h-space
+                +nextConferenceCard(session.conferences[1])

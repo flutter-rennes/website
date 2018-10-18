@@ -1,0 +1,15 @@
+include includes/head.pug
+include includes/next-session.pug
+include includes/sponsors.pug
+
+doctype html
+html
+    +head(true)
+    body
+        .page
+            .padding
+                +next-session(conferences.nextSession)
+        .page
+            .padding
+                +sponsors(sponsors, contact)
+    

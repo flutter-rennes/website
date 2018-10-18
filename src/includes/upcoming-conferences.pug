@@ -18,13 +18,13 @@ mixin conferenceCard(conference)
                         a.icon(href="http://github.com/"+conference.speaker.github)
                             img(src="images/icon-github.svg")
 
-.upcoming
-    h2= "Futures conférences"
-    each conference in conferences.upcoming
+mixin upcoming(conferences, contact)
+    .upcoming
+        each conference in conferences.upcoming
+            .v-space-small
+            +conferenceCard(conference)
         .v-space-small
-        +conferenceCard(conference)
-    .v-space-small
-    .v-space-small
-    .searching
-        h1= conferences.interested
-        a.contactus(href="#contact")= contact.contactus
+        .v-space-small
+        .searching
+            h1= conferences.interested
+            a.contactus(href="#contact")= contact.contactus

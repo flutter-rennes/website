@@ -1,19 +1,31 @@
+include includes/head.pug
+include includes/next-session.pug
+include includes/flutter.pug
+include includes/about.pug
+include includes/sponsors.pug
+include includes/upcoming-conferences.pug
+include includes/contact.pug
+
 doctype html
 html
-    include includes/head.pug
+    +head(false)
     body
         include includes/bar.pug
         .body
-            include includes/next-session.pug
+            h2= "Prochaine session"
+            +next-session(conferences.nextSession)
             .v-space
-            include includes/sponsors.pug
+            h2= "Sponsors"
+            +sponsors(sponsors, contact)
             .v-space
-            include includes/upcoming-conferences.pug
-            include includes/passed-conferences.pug
+            h2= "Futures conférences"
+            +upcoming(conferences, contact)
             .v-space
-            include includes/flutter.pug
+            h2= "Pourquoi Flutter ?"
+            +flutter(flutter)
             .v-space
-            include includes/about.pug
+            h2= about.title
+            +about(about)
             .v-space
-            include includes/contact.pug
-        
+            h2= "Contact"
+            +contact(contact)

@@ -1,5 +1,5 @@
-#sponsors.sponsors
-    h2= "Sponsors"
-    .searching
-        h1= sponsors.interested
-        a.contactus(href="#contact")= contact.contactus
+mixin sponsors(sponsors, contact)
+    #sponsors.sponsors
+        .searching
+            h1= sponsors.interested
+            a.contactus(href="#contact")= contact.contactus
