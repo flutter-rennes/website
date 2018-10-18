@@ -1,5 +1,18 @@
+mixin majorSponsor(sponsor)
+    a.card(href= sponsor.link)
+        img.icon(src="images/" + sponsor.icon)
+        .content
+            h1= sponsor.name
+            .h-space-small
+            p= sponsor.description
+
 mixin sponsors(sponsors, contact)
     #sponsors.sponsors
+        .majors
+            each sponsor in sponsors.major
+                .v-space-small
+                +majorSponsor(sponsor)
+        .v-space-small
         .searching
             h1= sponsors.interested
             a.contactus(href="#contact")= contact.contactus

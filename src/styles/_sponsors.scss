@@ -3,6 +3,52 @@
 @import 'sizes';
 
 .sponsors {
+
+    .card {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background: $colorBackgroundLight;
+        text-decoration: none;
+        border-radius: 6px;
+        box-shadow: 0px 0px 12px rgba(black, 0.10);
+        padding: $marginNormal;
+
+        img {
+            align-self: flex-start;
+            width: 128px;
+            height: 128px;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            h1 {
+                flex-shrink: 0;
+                align-self: left;
+                color: $colorTextLight;
+                font-size: $fontSizeExtraBig;
+                font-weight: $fontWeightLight;
+                margin-bottom: 0px;
+            }
+            
+            p {
+                color: $colorTextSemiDark;
+                font-size: $fontSizeRegular;
+                font-weight: $fontWeightLight;
+            }
+        }
+
+        &:hover {
+            text-decoration: none;
+            box-shadow: 0px 0px 16px rgba(black, 0.20);
+        }
+        &:visited {
+            text-decoration: none;
+        }
+    }
+
     .searching {
         background-color: $colorBackgroundSemiLight;
         border-radius: 6px;
