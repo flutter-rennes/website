@@ -3,7 +3,7 @@
     "major" : [
         {
             "icon": "sponsor-breizhcamp.svg",
-            "name" : "Breizhcamp",
+            "name" : "BreizhCamp",
             "description": "Le BreizhCamp est une association loi 1901 dont l’objectif est d’organiser et de faciliter des événements autour de l’ingénierie informatique. Dans ce cadre, l’association organise son événement annuel éponyme que vous connaissez sans doute vu que vous êtes sur le site web. Mais BreizhCamp c’est aussi un ensemble de groupes d’utilisateurs locaux qui organisent chaque mois des soirées techniques sur divers thèmes.",
             "link" : "http://www.breizhcamp.org/asso/"
         }
