@@ -1,6 +1,6 @@
 # website
 
-The official website for Flutter Rennes.
+The official website for Flutter Rennes: https://flutter-rennes.github.io/website/
 
 ## Develop
 
